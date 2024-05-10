@@ -1,0 +1,62 @@
+# for 
+    시작과 끝을 알고 있을때
+
+# while 
+    시작과 끝을 모를때
+
+- 시작값이 문자 밖에 있는지 
+  안에 있는지 차이
+
+전역변수화 global
+
+
+while 참인 동안 무한 반복
+
+while (bool 표현식)
+    break 반복문 탈출
+    continue 현재 반복문 생략 > 다음 반복으로
+
+
+while True
+    while True
+        ...
+        break
+    ...
+    break
+
+
+
+min()
+max()
+sum()
+reversed()
+enumerate() - 현재 인덱스와 요소를 값을 같이, 튜플로
+items() dic >> tuple로
+
+
+
+함수 def
+
+매개변수
+함수
+리턴값
+
+*가변위치매개변수 - list
+*가변키워드매개변수 - dic
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

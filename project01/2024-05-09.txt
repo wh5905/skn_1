@@ -1,0 +1,142 @@
+조건문
+
+= 대입연산자
+ 
+== 값 일치
+
+=== 타입 일치
+
+! 부정 not 
+
+!= 
+
+<= >=
+
+문자열 비교연산
+'a' < 'b'
+
+논리 연산자
+not 단항연산자  
+and 이항연산자
+or  이항
+
+
+
+# 가상환경
+
+모듈사용 
+의존성 관리
+
+.py의 집합 -> 패키지 
+
+pip 공식 패키지 매니저
+
+ex- conda vertualenv pyenv
+
+가상환경 생성 
+conda create --name py35 python=3.5
+
+conda env list
+
+
+
+# 조건문 if
+
+if 
+elif 
+else
+
+
+1 True
+0 False
+
+pass or ... > 나중에 개발 일단 진행
+
+raise 키워드
+
+
+# list
+    [요소, 요소, 요소]
+    mutable
+    이터러블 객체 반복문이랑 결합이 된다
+    index >> 0부터 
+
+    다중포문 
+    [[요소,123],[123,"ㄹㄷㄹㄷ"],"ㅁㄴㅇㅁㄴㅇ"]
+
+
+    빈리스트 = [ x  for (x) if x ]
+
+    리스트 = ["사과", "사과"], "딸기" <== 중복가능
+
+
+
+
+# tuple 
+  - immutable
+  - 순서 보장
+
+# set
+  - immutable
+  - 중복 x
+    list(set(리스트)) >> 중복제거됨 ["사과", "딸기"]
+
+  - 순서 보장x
+
+# dictionary
+  - immutable
+  - key value
+  - 순서 보장x
+  - 인덱스 대신 키값으로 
+    {"key" : value}
+
+
+    딕셔너리 = {"이름" : "홍길동", "나이" : "22"}
+    나이 = 딕셔너리["나이"]
+    나이 = 딕셔너리.key("나이")
+
+
+    get() >> none
+    in 
+    dic["dd"] >> error
+
+
+    딕셔너리.keys()    키값만 가져옴
+    딕셔너리.values()  밸류값만 가져옴
+    딕셔너리.items()   키와 밸류값을 가져옴
+
+
+
+# 역반복문
+    range(1,10,1,-1)
+    reversed(range(5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

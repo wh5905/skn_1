@@ -3,39 +3,39 @@
 
 from helpers.debug import *  
 
-# 이름 = input("입력하세요: ")  # 입력값을 받아서 a에 저장
-# print(f"이름이 {이름}이시군요")  # f-string 사용
+이름 = input("입력하세요: ")  # 입력값을 받아서 a에 저장
+print(f"이름이 {이름}이시군요")  # f-string 사용
 
 
-# 나이 = input("나이를 입력하세요: ")  # 입력값을 받아서 b에 저장
+나이 = input("나이를 입력하세요: ")  # 입력값을 받아서 b에 저장
 
-# int(나이)  # 입력값을 정수로 변환
-# pt(나이) 
+int(나이)  # 입력값을 정수로 변환
+pt(나이) 
 
-# print(f"나이가 {나이}이시군요")  # f-string 사용
-
-
-# a= 3.14
-
-# print(int(a))
-
-# print(float(a))
-
-# pt(str(a))
+print(f"나이가 {나이}이시군요")  # f-string 사용
 
 
-# a = 3.0 + 3.14
+a= 3.14
 
-# ppt(a)
+print(int(a))
 
-# ppt(int(a))
+print(float(a))
+
+pt(str(a))
 
 
-# inch_cm = inch_to_cm(15.6)
-# cm_inch = cm_to_inch(10)
+a = 3.0 + 3.14
 
-# print(inch_cm)
-# print(cm_inch)
+ppt(a)
+
+ppt(int(a))
+
+
+inch_cm = inch_to_cm(15.6)
+cm_inch = cm_to_inch(10)
+
+print(inch_cm)
+print(cm_inch)
 
 
 리스트 = [12,12,12]

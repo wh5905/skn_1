@@ -100,8 +100,10 @@ if __name__ == "__main__":
 
     import random
 
-    random_file =  r"C:\Users\USER\Desktop\workspace01\skn_1\project01\helpers\random.txt"
-    
+    random_file = (
+        r"C:\Users\USER\Desktop\workspace01\skn_1\project01\helpers\random.txt"
+    )
+
     hanguls = list("가나다라마바사아자차카타파하")
 
     with open(random_file, "w") as file:
@@ -125,25 +127,21 @@ if __name__ == "__main__":
 
     if 25 <= bmi:
         result = "과체중"
-    elif 18.5<= bmi:
+    elif 18.5 <= bmi:
         result = "정상 체중"
     else:
         result = "저체중"
 
-    print('\n'.join([
-        "이름: {}",
-        "몸무게: {}",
-        "키: {}",
-        "BMI: {}",
-        "결과: {}"
-    ]).format(name, weight, height, bmi, result))
+    print(
+        "\n".join(["이름: {}", "몸무게: {}", "키: {}", "BMI: {}", "결과: {}"]).format(
+            name, weight, height, bmi, result
+        )
+    )
 
-    
-    #제너레이터
+    # 제너레이터
     def test():
         print("함수가 호출되었습니다.")
         yield "test"
-
 
     print("A 지점 통과")
     next(test())
@@ -154,6 +152,3 @@ if __name__ == "__main__":
 
     # 책의 가격을 기준으로 정렬
     # book.sort(key = lambda booke : book["가격"])
-
-    
-

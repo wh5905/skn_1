@@ -1,0 +1,31 @@
+streamlit 
+
+Python을 사용하여 빠르고 쉽게 데이터 애플리케이션을 만들 수 있는 오픈 소스 라이브러리
+이를 사용하면 데이터 시각화, 머신 러닝 모델 등을 웹에서 쉽게 공유하고 테스트할 수 있음
+
+pynecone => reflex
+
+pip freeze -> requirements.txt
+
+패키지 설치 위치 확인 
+conda list
+
+streamlit hello
+
+
+pd = DataFrame
+
+넘파이의 nd.array 자료구조 
+series
+
+df 엑셀처럼 행과 열
+
+행 rows
+열 column
+
+[1행["홍길동", 23, ""]  2행['ㅁㄴㅇ',34 ""]]
+
+
+bootstrap
+
+

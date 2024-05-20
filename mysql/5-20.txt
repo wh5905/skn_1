@@ -2,6 +2,21 @@
 
 db 랭킹 db.engineer.com
 
+db port 정리
+
+환경변수 설정 
+SETX PATH "%PATH%;C:\Program Files\MySQL\MySQL Server 5.7\bin"
+
+
+DDL
+online DDL
+DML
+
+
+C reate > insert
+r ead > select
+u pdate > update
+d elete > DELETE
 
 
 

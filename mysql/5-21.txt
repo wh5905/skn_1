@@ -1,0 +1,66 @@
+인덱스
+
+뷰
+
+트리거 
+
+mysql로 내보내기
+mysqldump.exe --host="127.0.0.1" --port=3306 --user="encore" --password --result-file="" --databases mysql
+
+
+백업
+현재의 데이터베이스를 다른 매체에 보관하는 작업
+복원
+데이터베이스에 문제 발생 시 다른 매체에 백업된 데이터를 이용해 원상태로 돌려놓는 작업
+DBA (DataBase Administrator: 데이터베이스 관리자) 가 해야 할 가장 중요한 일
+
+
+프로젝트
+- ‘현실세계의 업무를 컴퓨터 시스템으로 옮겨놓는 일련의 과정’
+
+
+폭포수 모델
+장점
+단점
+
+
+기본 키 (PK, Primary Key)
+중복되지 않고 비어있지 않아야 함
+외래 키 (FK, Foreign Key)
+외래 키를 가지고 부모 테이블로 찾아가면 유일하게 하나의 정보를 얻을 수 있음
+
+케스케이팅
+
+
+## 로그
+
+
+이것이 MySQL이다-03 06
+
+SQL 문법
+
+
+SELECT문의 형식과 사용법
+특정 조건을 조회하는 WHERE절
+ORDER BY절 및 LIMIT절
+GROUP BY 및 HAVING 그리고 집계 함수
+INSERT/UPDATE/DELETE문의 형식
+
+
+
+
+logLv = 'INFO'
+SELECT * FROM log WHERE logLv = 'info';
+
+DESCRIBE log;
+SELECT * FROM log WHERE logLv = 'info' AND message = "경고";
+-- SELECT *FROM log WHERE loglv IN ('in' OR 'cr');
+-- SELECT * FROM log WHERE logLv LIKE 'in__'; 
+-- SELECT * FROM log WHERE message LIKE '안%'; 
+
+
+서브쿼리
+
+
+
+

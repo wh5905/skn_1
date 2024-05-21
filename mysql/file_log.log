@@ -1,0 +1,6 @@
+2024-05-21 12:38:20,825 [INFO] 프로그램 시작 (at file_log.log)
+2024-05-21 12:38:20,825 [ERROR] No module named 'asdf' (at file_log.log)
+2024-05-21 12:38:20,825 [INFO] 프로그램 종료 (at file_log.log)
+2024-05-21 12:39:52,429 [INFO] 프로그램 시작 (at file_log.log)
+2024-05-21 12:39:52,429 [ERROR] No module named 'asdf' (at file_log.log)
+2024-05-21 12:39:52,429 [INFO] 프로그램 종료 (at file_log.log)

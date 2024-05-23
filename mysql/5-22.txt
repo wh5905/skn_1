@@ -1,0 +1,44 @@
+order_by
+where절은 집계함수x
+
+HAVING절은 꼭 GROUP BY절 다음에 나와야 함
+
+INSERT
+
+AUTO_INCREMENT
+
+
+## DML
+데이터 조작 언어
+SQL - SELECT, INSERT, UPDATE, DELETE
+
+DDL
+DCL
+
+MySQL에서 지원하는 데이터 형식
+
+데이터 형식 변환 함수
+
+피벗의 구현
+
+
+## join
+
+PROCEDURE
+
+
+기본 키, 외래 키
+
+view
+
+인덱스
+
+트리거
+AFTER BEFORE
+다중, 중첩
+
+스토어드 함수
+
+커서
+
+전체 텍스트 검색과 파티션

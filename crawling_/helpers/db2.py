@@ -40,6 +40,15 @@ def 테이블만들때():
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def 테이블에레코드인서트할때():
+    import pandas as pd
+    df = pd.read_excel(r"C:/Users/USER/Desktop/workspace01/skn_1/crawling_/크롤링예제/data/뉴에라.xlsx")
+    상품명 = df["상품명"][0]
+    가격 = df["가격"][0]
+    가격= 가격.replace("원", "").replace(",", "")
+    int(가격)
+    상세페이지 = df["상세페이지"][0]
+
+
     import pymysql.cursors
     # Connect to the database
     connection = pymysql.connect(host='localhost',
@@ -48,11 +57,11 @@ def 테이블에레코드인서트할때():
                                 db='test')
     try:
         with connection.cursor() as cursor:
-            cursor.execute("INSERT INTO crawling (itemname, price, link) VALUES ('{}', '{}', '{}')").format("itemname", "price", "link")
+            cursor.execute("INSERT INTO crawling (itemname, price, link) VALUES ('{}', {}, '{}')".format(상품명, 가격, 상세페이지))
         connection.commit()
     finally:
         connection.close()
-
+    print("인서트 1개됨")
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 def 테이블에서내용조회할때():
